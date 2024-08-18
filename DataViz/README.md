@@ -17,10 +17,10 @@ Files included:
 ## Screenshots
 
 ### Example 1
-![Plotly Output](DataViz/newplot.png)
+![Plotly Output](newplot.png)
 
 ### Example 2
-![Bokeh Output](DataViz/bokehoutput.png)
+![Bokeh Output](bokehoutput.png)
 
 ### Example 3
-![Tick Data Plot](DataViz/image.png)
+![Tick Data Plot](image.png)
