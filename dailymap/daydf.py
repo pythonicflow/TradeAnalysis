@@ -69,7 +69,7 @@ app.layout = html.Div([
               [Input('date-input', 'value'), Input('min-quantity-input', 'value')])
 def update_graph_live(date, min_quantity):
     df = asyncio.run(fetch_data(date, min_quantity))
-    color_map = {0: 'lightblue', 1: 'lightcoral'}
+    color_map = {0: 'lightcoral', 1: 'lightblue'}
 
     # Filter the data to only include times between 08:30 and 15:15 (market hours for CME E-mini S&P 500 futures, central time)
     df = df.set_index('scdatetime')
