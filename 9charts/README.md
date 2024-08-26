@@ -4,7 +4,11 @@ This folder contains HTML files generated from trading data visualizations. Each
 
 Tested on Chrome and Safari. Zoom Level: 50%
 
-The chart template includes the following tickers:
+The chart template includes the following tickers (ES + NQ + Mag7):
 - | ES, NQ, NVDA        |
 - | AAPL, MSFT, GOOGL   |
 - | AMZN, META, TSLA    |
+
+Sample chart screenshot:
+
+![Sample Chart Screenshot](9charts.png)
